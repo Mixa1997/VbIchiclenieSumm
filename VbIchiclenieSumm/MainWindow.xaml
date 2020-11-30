@@ -1,0 +1,18 @@
+﻿<Window x:Class="VbIchiclenieSumm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VbIchiclenieSumm"
+        mc:Ignorable="d"
+        Title="Вычисление сумм" Height="270" Width="350" Background="Black">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="18,100,0,0" TextWrapping="Wrap" Text="Введите кол-во n рядов" VerticalAlignment="Top" Foreground="Blue" Background="Brown"/>
+        <TextBox   x:Name="Box1" HorizontalAlignment="Left" Height="16" Margin="168,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="CadetBlue" Foreground="Blue"/>
+        <TextBlock HorizontalAlignment="Left" Margin="18,128,0,0" TextWrapping="Wrap" Text="Введите значение x" VerticalAlignment="Top" Width="131" Foreground="Blue" Background="Brown"/>
+        <TextBox   x:Name="Box2" HorizontalAlignment="Left" Height="16" Margin="168,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="CadetBlue" Foreground="Blue"/>
+        <Button Content="Вычислить" HorizontalAlignment="Left" Margin="18,166,0,0" VerticalAlignment="Top" Width="270" Click="Button_Click" Background="Chocolate" Foreground="Cyan"/>
+        <TextBlock x:Name="Result" HorizontalAlignment="Left" Margin="18,205,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="38" Width="270" Background="Crimson" Foreground="BlueViolet"/>
+        <Image HorizontalAlignment="Left" Source="primer.png" Height="74" Margin="0,10,0,0" VerticalAlignment="Top" Width="359"/>
+    </Grid>
+</Window>
